@@ -18,13 +18,15 @@
 
 ## :desktop_computer: 조 구성원
 
-|  이름  | 역할 |
-| :----: | :--: |
-| 최현민 | 조장 |
-| 김인선 | 조원 |
-| 강윤수 | 조원 |
-| 염휘주 | 조원 |
-| 이승훈 | 조원 |
+> **최현민 ([hyunmin0317](https://github.com/hyunmin0317))**
+>
+> **김인선 ([insun-k](https://github.com/insun-k))**
+>
+> **강윤수 ([kangmara722](https://github.com/kangmara722))**
+>
+> **염휘주 ([yeomhwijui](https://github.com/yeomhwijui))**
+>
+> **이승훈 ([hoony970504](https://github.com/hoony970504))**
 
 ## :book: 팀플 기록
 
