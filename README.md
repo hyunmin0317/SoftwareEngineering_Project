@@ -1,6 +1,6 @@
 # SoftwareEngineering_Project
 
-### 2021년 1학기 소프트웨어공학 프로젝트 - 3조
+### [2021년 1학기 소프트웨어공학 프로젝트](https://github.com/SMU-EB0055/SE2021_HAEA0008_3) - 3조
 
 ---
 
