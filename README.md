@@ -18,7 +18,7 @@
 
 ## :blue_book: 과제​
 
-* ### [요구사항 명세서]()
+* ### [요구사항 명세서](https://github.com/hyunmin0317/SoftwareEngineering_Project/blob/master/%EA%B3%BC%EC%A0%9C/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EB%AA%85%EC%84%B8%EC%84%9C.pdf)
 
 * ### 프로젝트 계획서
 
