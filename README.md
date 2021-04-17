@@ -20,7 +20,7 @@
 
 * ### [요구사항 명세서](https://github.com/hyunmin0317/SoftwareEngineering_Project/blob/master/%EA%B3%BC%EC%A0%9C/%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD%20%EB%AA%85%EC%84%B8%EC%84%9C.pdf)
 
-* ### 프로젝트 계획서
+* ### [프로젝트 계획서](https://github.com/hyunmin0317/SoftwareEngineering_Project/blob/master/%EA%B3%BC%EC%A0%9C/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%84%ED%9A%8D%EC%84%9C.pdf)
 
 * ### 프로젝트 중간발표
 
