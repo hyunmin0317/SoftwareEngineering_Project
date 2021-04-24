@@ -24,7 +24,7 @@
 
 * ### [프로젝트 중간보고](https://github.com/hyunmin0317/SoftwareEngineering_Project/blob/master/%EA%B3%BC%EC%A0%9C/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%EB%B3%B4%EA%B3%A0.pptx)
 
-* ### 프로젝트 중간발표
+* ### [프로젝트 중간발표](https://www.youtube.com/watch?v=Zuiv_Azx_jI)
 
 <br>
 
