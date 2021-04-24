@@ -22,7 +22,7 @@
 
 * ### [프로젝트 계획서](https://github.com/hyunmin0317/SoftwareEngineering_Project/blob/master/%EA%B3%BC%EC%A0%9C/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EA%B3%84%ED%9A%8D%EC%84%9C.pdf)
 
-* ### [프로젝트 중간보고](https://github.com/hyunmin0317/SoftwareEngineering_Project/blob/master/%EA%B3%BC%EC%A0%9C/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%EB%B3%B4%EA%B3%A0.pptx)
+* ### [프로젝트 중간보고](https://github.com/hyunmin0317/SoftwareEngineering_Project/blob/master/%EA%B3%BC%EC%A0%9C/%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%20%EC%A4%91%EA%B0%84%EB%B3%B4%EA%B3%A0.pdf)
 
 * ### [프로젝트 중간발표](https://www.youtube.com/watch?v=Zuiv_Azx_jI)
 
