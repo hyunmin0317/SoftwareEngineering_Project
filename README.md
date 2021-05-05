@@ -36,7 +36,7 @@
 >
 > **강윤수 ([kangmara722](https://github.com/kangmara722))**
 >
-> **염휘주 ([yeomhwijui](https://github.com/yeomhwijui))**
+> **염휘주 ([yeomhwijui](https://github.com/yeomyaloo))**
 >
 > **이승훈 ([hoony970504](https://github.com/hoony970504))**
 
