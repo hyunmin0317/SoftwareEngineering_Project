@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".Admin_Person">
+
+
+    <TextView
+        android:id="@+id/tv_personcontrol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="회원정보 관리"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"/>
+
+    <TextView
+        android:id="@+id/tv_homebtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_exitbtn"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView7"/>
+
+    <TextView
+        android:id="@+id/tv_exitbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_homebtn"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView7"
+        tools:ignore="HardcodedText"/>
+
+
+    <ScrollView
+        android:id="@+id/scrollView7"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:background="@drawable/solid_backgroundview"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:gravity="center"
+                    android:text="아이디: iamsiru@gmail.com \n 닉네임: 시루 왕자  \n 성별: 남성"
+                    android:textAlignment="textStart" />
+
+                <Button
+                    android:id="@+id/PersonDeletebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/solid_button"
+                    android:text="Delete"
+                    android:textSize="10sp"
+                    app:backgroundTint="#2196F3" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#86585858" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:text="아이디: rungji@gmail.com \n 닉네임: 누룽지 \n 성별: 여성"
+                    android:textAlignment="textStart"
+                    android:gravity="center"/>
+
+                <Button
+                    android:id="@+id/PersonDeletebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/solid_button"
+                    android:text="Delete"
+                    app:backgroundTint="#2196F3"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#86585858" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:gravity="center"
+                    android:text="아이디: hodu@gmail.com \n 닉네임:아이엠윌넛  \n 성별: 남성"
+                    android:textAlignment="textStart" />
+
+                <Button
+                    android:id="@+id/PersonDeletebtn4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/solid_button"
+                    android:text="Delete"
+                    app:backgroundTint="#2196F3"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#86585858" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:gravity="center"
+                    android:text="아이디: kong@gmail.com \n 닉네임: 숏다리  \n 성별: 여성"
+                    android:textAlignment="textStart" />
+
+                <Button
+                    android:id="@+id/PersonDeletebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/solid_button"
+                    android:text="Delete"
+                    app:backgroundTint="#2196F3"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#86585858" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:gravity="center"
+                    android:text="아이디: salt_cream@gmail.com \n 닉네임: 쨥짜리  \n 성별: 여성"
+                    android:textAlignment="textStart" />
+
+                <Button
+                    android:id="@+id/PersonDeletebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/solid_button"
+                    android:text="Delete"
+                    app:backgroundTint="#2196F3"
+                    android:textSize="10sp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#86585858" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:gravity="center"
+                    android:text="아이디: moondalea@gmail.com \n 닉네임: 콩달래 \n 성별: 여성"
+                    android:textAlignment="textStart" />
+
+                <Button
+                    android:id="@+id/PersonDeletebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/solid_button"
+                    android:text="Delete"
+                    app:backgroundTint="#2196F3"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#86585858" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:gravity="center"
+                    android:text="아이디: ricky@gmail.com \n 닉네임:리키야리키야이리날아오너라  \n 성별: 남성"
+                    android:textAlignment="textStart" />
+
+                <Button
+                    android:id="@+id/PersonDeletebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/solid_button"
+                    android:text="Delete"
+                    app:backgroundTint="#2196F3"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#86585858" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:gravity="center"
+                    android:text="아이디: rucy@gmail.com \n 닉네임:루시  \n 성별: 여성"
+                    android:textAlignment="textStart" />
+
+                <Button
+                    android:id="@+id/PersonDeletebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/solid_button"
+                    android:text="Delete"
+                    app:backgroundTint="#2196F3"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#86585858" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="250dp"
+                    android:layout_height="150dp"
+                    android:gravity="center"
+                    android:text="아이디: chewy@gmail.com \n 닉네임:추추추이  \n 성별: 여성"
+                    android:textAlignment="textStart" />
+
+                <Button
+                    android:id="@+id/PersonDeletebtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="12dp"
+                    android:background="@drawable/solid_button"
+                    android:text="Delete"
+                    app:backgroundTint="#2196F3"
+                    android:textSize="10sp"/>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

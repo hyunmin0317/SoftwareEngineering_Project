@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    tools:context=".Admin1">
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv1"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_centerInParent="true"
+        android:translationY="-20dp"
+        app:cardCornerRadius="12dp"
+        app:cardUseCompatPadding="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView16"
+        tools:ignore="MissingConstraints">
+
+
+        <EditText
+            android:id="@+id/et_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="비밀번호를 입력해주세요."
+            android:inputType="textPassword"
+            android:translationY="-20dp"
+            app:layout_constraintTop_toBottomOf="@+id/et_email" />
+
+        <Button
+            android:id="@+id/logbtn1"
+            android:layout_width="212dp"
+            android:layout_height="57dp"
+            android:layout_gravity="center"
+            android:text="로그인하기"
+            android:translationY="60dp"
+            app:backgroundTint="#2196F3"
+            app:layout_constraintBottom_toTopOf="@+id/textView17" />
+
+        <EditText
+            android:id="@+id/et_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:ems="10"
+            android:hint="이메일을 입력해주세요."
+            android:inputType="textEmailAddress"
+            android:translationY="-80dp"
+            app:layout_constraintBottom_toTopOf="@+id/et_pwd" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="253dp"
+            android:text="로그인 화면으로 돌아가기"
+            android:translationY="400dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/logbtn1" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="109dp"
+            android:layout_marginLeft="109dp"
+            android:layout_marginEnd="109dp"
+            android:layout_marginRight="109dp"
+            android:layout_marginBottom="20dp"
+            android:text="관리자 계정으로 로그인하기"
+            android:translationX="20dp"
+            android:translationY="-200dp" />
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#0003A9F4"
+        android:text="Strangers"
+        android:textColor="#FFFFFF"
+        android:textSize="50sp"
+        android:translationY="-5dp"
+        app:layout_constraintBottom_toTopOf="@+id/cv1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
