@@ -52,3 +52,4 @@
 |                          meeting 02                          | 2021.04.08 | 14:00 ~ 16:00 |        요구사항 명세서 작성         |
 | [meeting 03](https://github.com/hyunmin0317/SoftwareEngineering_Project/blob/master/%ED%9A%8C%EC%9D%98%EB%A1%9D/meeting03.md) | 2021.04.13 | 10:00 ~ 11:00 | 프로젝트 계획서 작성, 중간발표 준비 |
 | [meeting 04](https://github.com/hyunmin0317/SoftwareEngineering_Project/blob/master/%ED%9A%8C%EC%9D%98%EB%A1%9D/meeting04.md) | 2021.04.17 | 12:30 ~ 14:00 |         중간발표 준비 계획          |
+ 
